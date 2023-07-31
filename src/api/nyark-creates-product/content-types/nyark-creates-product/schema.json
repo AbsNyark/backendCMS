@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nyark_creates_products",
+  "info": {
+    "singularName": "nyark-creates-product",
+    "pluralName": "nyark-creates-products",
+    "displayName": "NyarkCreatesProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "Weight": {
+      "type": "float"
+    }
+  }
+}
