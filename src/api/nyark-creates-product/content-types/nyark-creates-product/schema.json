@@ -4,7 +4,8 @@
   "info": {
     "singularName": "nyark-creates-product",
     "pluralName": "nyark-creates-products",
-    "displayName": "NyarkCreatesProduct"
+    "displayName": "NyarkCreatesProduct",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,19 +19,27 @@
       "type": "float"
     },
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Quantity": {
       "type": "integer"
     },
     "Weight": {
+      "type": "float"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "ProductName"
+    },
+    "Discount": {
       "type": "float"
     }
   }

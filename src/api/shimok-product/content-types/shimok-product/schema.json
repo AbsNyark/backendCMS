@@ -40,6 +40,13 @@
     },
     "Weight": {
       "type": "float"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "ProductName"
+    },
+    "Discount": {
+      "type": "float"
     }
   }
 }

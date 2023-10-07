@@ -73,6 +73,9 @@
     },
     "Taxes": {
       "type": "string"
+    },
+    "Session_Id": {
+      "type": "string"
     }
   }
 }
