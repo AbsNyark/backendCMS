@@ -16,14 +16,14 @@ COPY . .
 # Set the environment variables required by Strapi
 ENV NODE_ENV production
 ENV DATABASE_CLIENT=postgres
-ENV DATABASE_URL=postgresql://postgres:xqPSxqCDqxMJ2Naat1fk@containers-us-west-138.railway.app:5943/railway
+ENV DATABASE_URL=postgresql://postgres:XDRyDQFisNwX5FPLn6FX@containers-us-west-119.railway.app:5833/railway
                    
 
-ENV DATABASE_HOST=containers-us-west-138.railway.app
-ENV DATABASE_PORT=5943
+ENV DATABASE_HOST=containers-us-west-119.railway.app
+ENV DATABASE_PORT=5833
 ENV DATABASE_NAME=railway
 ENV DATABASE_USERNAME=postgres
-ENV DATABASE_PASSWORD=xqPSxqCDqxMJ2Naat1fk
+ENV DATABASE_PASSWORD=XDRyDQFisNwX5FPLn6FX
 
 ENV APP_KEYS=k55ZTnh8zpp+RgfKGFH+ow==,emWScOj6oRLuo9GpElohpQ==,NcAhXOO3tLj/U6c8cc22qw==,JfLEaKTSdyJZsrLu2pQKhg==
 ENV API_TOKEN_SALT=tKsFy7bb9BVQh4DD9MKROw==
@@ -32,9 +32,9 @@ ENV TRANSFER_TOKEN_SALT=u6+oGpVtPXMdxmyKuaxKuw==
 ENV JWT_SECRET=en+t18xlQnNT8dOmzl9x4g==
 
 # Set the Cloudinary configuration environment variables
-ENV CLOUDINARY_NAME=dvpbxzktm
-ENV CLOUDINARY_API_KEY=581658434511332
-ENV CLOUDINARY_API_SECRET=nImdsZ-N_k6OhuYdd_lIPwRv1eI
+ENV CLOUDINARY_NAME=dmhomgdnq
+ENV CLOUDINARY_API_KEY=219681213186389
+ENV CLOUDINARY_API_SECRET=0W-EnJZPYU3H94N0NjI-pgWO5tM
 # Expose the port specified in the Strapi configuration
 
 RUN ["npm", "run", "build"]
